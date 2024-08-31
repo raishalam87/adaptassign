@@ -1,0 +1,144 @@
+/* src/styles/Weather.css */
+.weather-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .weather-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .weather-container form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .weather-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .weather-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-info {
+    text-align: center;
+  }
+  
+  .weather-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .weather-info img {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  
+  /* Small devices (mobile) */
+  @media (max-width: 767px) {
+    .weather-container h1 {
+      font-size: 22px;
+    }
+  
+    .weather-container input,
+    .weather-container button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .weather-info h2 {
+      font-size: 20px;
+    }
+  
+    .weather-info p {
+      font-size: 16px;
+    }
+  
+    .weather-info img {
+      max-width: 80px;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .weather-container h1 {
+      font-size: 26px;
+    }
+  
+    .weather-container input,
+    .weather-container button {
+      font-size: 15px;
+      padding: 9px;
+    }
+  
+    .weather-info h2 {
+      font-size: 22px;
+    }
+  
+    .weather-info p {
+      font-size: 17px;
+    }
+  
+    .weather-info img {
+      max-width: 90px;
+    }
+  }
+  
+  /* Large devices (desktops) */
+  @media (min-width: 1025px) {
+    .weather-container {
+      padding: 30px;
+    }
+  
+    .weather-container h1 {
+      font-size: 32px;
+    }
+  
+    .weather-container input,
+    .weather-container button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .weather-info h2 {
+      font-size: 28px;
+    }
+  
+    .weather-info p {
+      font-size: 18px;
+    }
+  
+    .weather-info img {
+      max-width: 100px;
+    }
+  }
+  
